@@ -174,7 +174,7 @@ export default function Portfolio() {
 
   const projects = [
     { title: 'Aplikasi Lowongan Kerja', type: 'Mobile Application', year: '2025', description: 'Platform lowongan kerja yang memudahkan perusahaan memposting pekerjaan dan pencari kerja melamar posisi. Fitur meliputi filter pencarian, aplikasi online, dan dashboard manajemen untuk HR.', tags: ['Flutter', 'Dart', 'Firebase', 'ASP.NET'], accent: '#4ADE80' },
-    { title: 'Web Aplikasi HR Management', type: 'Company Project', year: '2025', description: 'Sistem manajemen HR komprehensif untuk mengelola karyawan, absensi, cuti, dan penggajian. Membantu perusahaan mengotomatisasi proses HR dan meningkatkan efisiensi operasional.', tags: ['React', 'TypeScript', 'RESTful API', 'Dashboard'], accent: '#22C55E' },
+    { title: 'Web Aplikasi HR Management', type: 'Company Project', year: '2025', description: 'Sistem manajemen HR komprehensif untuk mengelola karyawan, absensi, cuti, dan penggajian. Membantu perusahaan mengotomatisasi proses HR dan meningkatkan efisiensi operasional.', tags: [ 'Laravel','Tailwind CSS', 'Dashboard'], accent: '#22C55E' },
     { title: 'Web Pengajuan Izin', type: 'School Project', year: '2024', description: 'Sistem pengajuan izin digital untuk institusi pendidikan. Memungkinkan siswa mengajukan izin secara online, guru menyetujui/menolak, dan orang tua menerima notifikasi real-time.', tags: ['HTML5', 'CSS3', 'JavaScript', 'PHP'], accent: '#16A34A' },
   ];
 
