@@ -301,7 +301,7 @@ export default function Hero({ heroY, heroOpacity, scrollHint, scrollTo, isMenuO
             </motion.div>
 
             {[
-              { label: '10+ Projects', delay: 1.1, x: 130, y: -110 },
+              { label: '5+ Projects', delay: 1.1, x: 130, y: -110 },
               { label: '2+ Yrs Exp',   delay: 1.3, x: -140, y: -80 },
               { label: '6 Tech Stack', delay: 1.5, x: 140,  y: 100 },
             ].map((pill) => (
@@ -318,6 +318,7 @@ export default function Hero({ heroY, heroOpacity, scrollHint, scrollTo, isMenuO
                   backdropFilter: 'blur(12px)',
                   border: '1px solid rgba(74,222,128,0.2)',
                   color: '#4ADE80',
+                  zIndex: pill.label === '2+ Yrs Exp' ? 20 : 10
                 }}
                 whileHover={{ scale: 1.1 }}
                 className="px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap font-dm"
